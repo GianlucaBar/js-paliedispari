@@ -25,5 +25,5 @@ function palindromeCheck(stringa){
 var stringaUtente = prompt("scrivi una parola in lettere minuscole");
 
 
-// stampa 
+// chiamo e stampo il risultato della funzione
 console.log(palindromeCheck(stringaUtente));
