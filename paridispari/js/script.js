@@ -15,6 +15,8 @@ function evenOdd( num1, num2 ){
         return 'dispari'
     }   
 }
+//////////////////////////////////////////////////////////////////////////////////
+
 
 // scelte giocatore 
 var scelta = prompt("scegli 'pari' o 'dispari'");

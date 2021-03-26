@@ -6,7 +6,7 @@ function palindromeCheck(stringa){
     var isPalindroma = true;
 
 // il for deve andare avanti fino a meta' stringa e finche'il flag e'vero   
-    for (i = 0; i < (stringa.length / 2) && isPalindroma == true; i++ ){
+    for (i = 0; i < (stringa.length); i++ ){
 
         // confronto prima lettera a ultima, seconda a penultima ecc... 
         if( stringa[i] == stringa[stringa.length - i -1]){
